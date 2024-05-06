@@ -8,7 +8,7 @@ import streamlit as st
 def home_page():
     import streamlit as st
     from PIL import Image
-    import cv2
+  
 
     img = Image.open("blood cell.jpg")
     img = cv2.imread("blood cell.jpg")

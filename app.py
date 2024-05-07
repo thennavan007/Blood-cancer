@@ -30,7 +30,7 @@ def home_page():
 
 def prediction_page():
     # Load the trained model
-    model = load_model('Nasnet(1).h5')
+    model = load_model('Nasnet (1).h5')
 
     # Define class labels
     class_labels = {0: 'Early-pre-B', 1: 'Pre-B', 2: 'Pro-B', 3: 'Benign'}

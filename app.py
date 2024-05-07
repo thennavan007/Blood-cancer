@@ -3,6 +3,8 @@
 import numpy as np
 import pandas as pd
 import streamlit as st
+from tensorflow.keras.preprocessing import image
+from tensorflow.keras.models import load_model
 
 
 def home_page():
@@ -27,11 +29,6 @@ def home_page():
 
 
 def prediction_page():
-    import streamlit as st
-    import numpy as np
-    from tensorflow.keras.preprocessing import image
-    from tensorflow.keras.models import load_model
-
     # Load the trained model
     model = load_model('Nasnet(1).h5')
 

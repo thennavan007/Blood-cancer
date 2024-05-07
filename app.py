@@ -11,7 +11,7 @@ def home_page():
   
 
     img = Image.open("blood cell.jpg")
-    img = cv2.imread("blood cell.jpg")
+
     st.image(
         img,
         caption="Blood Cancer Classification and Prediction",
